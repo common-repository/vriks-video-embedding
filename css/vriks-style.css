@@ -1,0 +1,64 @@
+.vrikscontainer {
+	width: 80%;
+	margin-bottom: 3vh;
+	margin-top: 2vh;
+	border-radius: 3px;
+	padding: 7px; 
+	box-shadow: 5px 10px 10px grey;
+	background-color:rgba(255,255,255,0.7);
+}
+
+.vrikssub {
+	font-size: smaller;
+}
+
+.vrikslink {
+	font-size: small;
+}
+
+/* unvisited link (darkened)*/
+.vrikslink a:link {
+    color: #311b92;
+}
+
+/* visited link (standard purple)*/
+.vrikslink a:visited {
+   color: #673ab7;
+}
+
+/* mouse over link (accent)*/
+.vrikslink a:hover {
+    color: #7c4dff;
+}
+
+/* selected link (lighten)*/
+.vrikslink a:active {
+   color: #7e57c2;
+}
+
+.vrikslogo {
+	float: left;
+	width: 20%;
+	padding-right: 10px;
+	margin-top: 3px;
+}
+
+.vrikstitle {
+	margin-bottom: 1vh;	
+}
+
+.video-js .vjs-big-play-button,
+.video-js .vjs-menu-button .vjs-menu-content {
+	background-color: #673ab7;
+	border-radius: 3px;
+}
+
+.video-js .vjs-control-bar {
+	/*to customize the seeker style*/
+}
+.video-js .vjs-volume-level,
+.video-js .vjs-play-progress,
+.video-js .vjs-slider-bar {
+	background: #673ab7;
+}
+
